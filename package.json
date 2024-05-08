@@ -1,0 +1,21 @@
+{
+  "name": "bulls_and_cows",
+  "version": "1.0.0",
+  "description": "try to guess four-digit number using bulls and cows",
+  "type": "module",
+  "main": "bin/cli.js",
+  "bin": {
+    "bullsAndCows": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kvazitropter",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
